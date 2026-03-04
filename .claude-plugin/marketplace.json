@@ -1,0 +1,22 @@
+{
+  "name": "botsee-marketplace",
+  "owner": {
+    "name": "BotSee / RivalSee",
+    "url": "https://botsee.io"
+  },
+  "metadata": {
+    "description": "BotSee AI visibility monitoring plugin for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "botsee",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/RivalSee/botsee-skill.git"
+      },
+      "description": "Monitor your brand's AI visibility across ChatGPT, Claude, Perplexity, and Gemini",
+      "version": "0.3.0"
+    }
+  ]
+}
